@@ -1,0 +1,80 @@
+.ChatInputPane {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  background-color: #E2E2E2;
+  z-index: 9999;
+}
+
+.ChatInput {
+  position: relative;
+  top: 6px;
+  height: 28px;
+  left: 6px;
+  font-size: 16px;
+}
+
+.ChatInputButton {
+  position: relative;
+  top: 6px;
+  height: 28px;
+  left: 6px;
+  font-size: 16px;
+}
+
+.ChatViewPaneRoot {
+  overflow: hidden;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.ChatViewPane {
+  width: 100%;
+}
+
+.MessageCard {
+  font-size: 16px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 12px;
+  padding-right: 12px;
+  width: fit-content;
+}
+
+.SentMessage {
+  text-align: left;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  background-color: lightgreen;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.ReceivedMessage {
+  text-align: left;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  background-color: bisque;
+  margin-left: 20px;
+}
+
+.ChatRoot {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.footer {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 5px;
+  background-color: aquamarine;
+  z-index: 9999;
+}
